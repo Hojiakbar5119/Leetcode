@@ -94,13 +94,13 @@
 
 var shuffle = function(nums, n) {
     let result = []
-    for(let i=0; i<n; i++){
+    for(let i=n; i<nums.length; i++){
 
-        result.push(nums[i])
+        // result.push(nums[i])
         // result.push(num+i)
         result.push(nums[i+n])
     }
     return result
 };
 
-console.log([2,5,2,3,4,7],3)
+console.log([2,5,2,3,4,7],2)
