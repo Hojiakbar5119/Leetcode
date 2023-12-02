@@ -38,9 +38,23 @@
 // }
 
 
-const arr = [1]
+// const arr = [1]
 
-arrred = arr.reduce((a,b)=>{
-  return a+b
-},1)
-console.log(arrred);
+// arrred = arr.reduce((a,b)=>{
+//   return a+b
+// },1)
+// console.log(arrred);
+
+
+// const timestamp = 1701395966000; // UNIX timestamp
+// const date = new Date(timestamp);
+
+// console.log(date.toDateString());
+// // console.log;
+// // console.log(new Date());
+
+
+const today = new Date(); // Bugungi sana
+const unixTimestamp = today.getTime();
+
+console.log(unixTimestamp); // Unix timestamp
