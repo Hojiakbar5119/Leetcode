@@ -46,15 +46,15 @@
 // console.log(arrred);
 
 
-// const timestamp = 1701395966000; // UNIX timestamp
-// const date = new Date(timestamp);
+const timestamp = 1701395966000; // UNIX timestamp
+const date = new Date(timestamp);
 
-// console.log(date.toDateString());
+console.log(date.toDateString());
 // // console.log;
 // // console.log(new Date());
 
 
-const today = new Date(); // Bugungi sana
-const unixTimestamp = today.getTime();
+// const today = new Date(); // Bugungi sana
+// const unixTimestamp = today.getTime();
 
-console.log(unixTimestamp); // Unix timestamp
+// console.log(unixTimestamp); // Unix timestamp
