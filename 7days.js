@@ -45,19 +45,44 @@
 //     }
 //     return [humanYears, cat, dog];
 //   };
-  
+
 //   console.log(humanYearsCatYearsDogYears(1));
 
+// var countSheep = function (num){
+//     //your code here
+//     let textContent = ''
+//     for(let i=1; i<=num; i++){
+//         textContent += `${i} sheep...`
+//         // textContent +=i
+//     }
 
-var countSheep = function (num){
-    //your code here
-    let textContent = ''
-    for(let i=1; i<=num; i++){
-        textContent += `${i} sheep...`
-        // textContent +=i
-    }
+//     return textContent
+//   }
 
-    return textContent
-  }
+//   console.log(countSheep(4));
 
-  console.log(countSheep(4));
+// function getDivisorsCnt(n) {
+//     let count = 0;
+
+//     for (let i = 1; i <= Math.sqrt(n); i++) {
+//       if (n % i === 0) {
+//         // If divisors are equal, count only one
+//         if (n / i === i) {
+//           count++;
+//         } else {
+//           // Otherwise, count both
+//           count += 2;
+//         }
+//       }
+//     }
+
+//     return count;
+//   }
+//   console.log(getDivisorsCnt(50000));
+
+// ! https://www.codewars.com/kata/542c0f198e077084c0000c2e/solutions/javascript
+
+function removeEveryOther(arr) {
+  return arr.filter((_, index) => index % 2 == 0);
+}
+console.log(removeEveryOther(['Hello', 'Goodbye', 'Hello Again']));
