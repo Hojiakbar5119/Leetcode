@@ -20,30 +20,44 @@
 // }
 
 // console.log(findAverage([1, 2, 3]));
-var humanYearsCatYearsDogYears = function (humanYears) {
-    let cat = 0;
-    let dog = 0;
-    if (humanYears == 1) {
-      cat = cat + 15;
-      dog = dog + 15;
-    }
-    if (humanYears == 2) {
-          cat = cat + 15;
-      dog = dog + 15;
-      cat = cat + 9;
-      dog = dog + 9;
-    }
-    if (humanYears >= 3) {
-             cat = cat + 15;
-      dog = dog + 15;
-      cat = cat + 9;
-      dog = dog + 9;
-      for (let i = 3; i <= humanYears; i++) {
-        cat = cat + 4;
-        dog = dog + 5;
-      }
-    }
-    return [humanYears, cat, dog];
-  };
+// var humanYearsCatYearsDogYears = function (humanYears) {
+//     let cat = 0;
+//     let dog = 0;
+//     if (humanYears == 1) {
+//       cat = cat + 15;
+//       dog = dog + 15;
+//     }
+//     if (humanYears == 2) {
+//           cat = cat + 15;
+//       dog = dog + 15;
+//       cat = cat + 9;
+//       dog = dog + 9;
+//     }
+//     if (humanYears >= 3) {
+//              cat = cat + 15;
+//       dog = dog + 15;
+//       cat = cat + 9;
+//       dog = dog + 9;
+//       for (let i = 3; i <= humanYears; i++) {
+//         cat = cat + 4;
+//         dog = dog + 5;
+//       }
+//     }
+//     return [humanYears, cat, dog];
+//   };
   
-  console.log(humanYearsCatYearsDogYears(1));
+//   console.log(humanYearsCatYearsDogYears(1));
+
+
+var countSheep = function (num){
+    //your code here
+    let textContent = ''
+    for(let i=1; i<=num; i++){
+        textContent += `${i} sheep...`
+        // textContent +=i
+    }
+
+    return textContent
+  }
+
+  console.log(countSheep(4));
