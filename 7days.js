@@ -10,13 +10,19 @@
 // Write a function which calculates the average of the numbers in a given list.
 
 // Note: Empty arrays should return 0.
-function findAverage(array) {
-  // your code here
-  let summ = array.reduce((old, cur) => {
-    return old + cur;
-  }, 0);
+// function findAverage(array) {
+//   // your code here
+//   let summ = array.reduce((old, cur) => {
+//     return old + cur;
+//   }, 0);
 
-  return summ/array.length
-}
+//   return summ/array.length
+// }
 
-console.log(findAverage([1, 2, 3]));
+// console.log(findAverage([1, 2, 3]));
+
+
+var humanYearsCatYearsDogYears = function(humanYears) {
+    let ca
+   }
+   
