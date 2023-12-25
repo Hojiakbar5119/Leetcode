@@ -17,5 +17,7 @@ function friend(friends) {
 // console.log(sumStr("4","5"));
 
 function getCount(str) {
-    return str.split("");
+    return str.split("").filter(vowel =>  "aeiou".includes(vowel)).length;
   }
+
+  console.log(getCount("salom dunyo"));
