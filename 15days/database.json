@@ -1,0 +1,17 @@
+{
+    "Comment": "Loyiha jarayonini boshqarish",
+    "StartAt": "LoyihaBoshlash",
+    "States": {
+       "LoyihaBoshlash": {
+          "Type": "Pass",
+          "Result": "Boshlash bosqichi",
+          "Next": "JarayonYangilash"
+       },
+       "JarayonYangilash": {
+          "Type": "Pass",
+          "Result": "Yangilash bosqichi",
+          "End": true
+       }
+    }
+ }
+ 
